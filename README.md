@@ -26,15 +26,15 @@
 ---
 
 * **Course**: IT 140 - *Introduction to Scripting*
-- **Task Titles**:
-  - **5-3**: Project One Submission
-  - **6-4**: Milestone: Moving Between Rooms
-  - **7-3**: Project Two Submission
+* **Task Titles**:
+  * **5-3**: Project One Submission
+  * **6-4**: Milestone: Moving Between Rooms
+  * **7-3**: Project Two Submission
 * **Task Type**: Required, graded, one submission required for each task
 * **Repository Version**: 1.0.4
 * **Repository Version DTG**: 2026-09-07-14-30
-- **Program**: Text-Based Adventure Game
-- **Repository Model**: One personal repository used across all three modules
+* **Program**: Text-Based Adventure Game
+* **Repository Model**: One personal repository used across all three modules
 
 > [!NOTE]
 > The IT 140 project SDLC is distributed across **three modules**. Do not create a new project repository for each task.
@@ -102,32 +102,32 @@ Course-provided flowchart images and repository-management files are supporting 
 
 Required graded work:
 
-- [`design/game_storyboard.md`](design/game_storyboard.md)
-- [`design/game_map.drawio`](design/game_map.drawio)
-- [`design/move.pseudo`](design/move.pseudo)
-- [`design/get_item.pseudo`](design/get_item.pseudo)
+* [`design/game_storyboard.md`](design/game_storyboard.md)
+* [`design/game_map.drawio`](design/game_map.drawio)
+* [`design/move.pseudo`](design/move.pseudo)
+* [`design/get_item.pseudo`](design/get_item.pseudo)
 
 ### Module Six | Milestone
 
 Required graded work:
 
-- [`prototype/move_between_rooms.py`](prototype/move_between_rooms.py)
+* [`prototype/move_between_rooms.py`](prototype/move_between_rooms.py)
 
 Optional working notes:
 
-- [`prototype/move_between_rooms_sdw.md`](prototype/move_between_rooms_sdw.md)
-- [`tests/game_test_plan.md`](tests/game_test_plan.md)
+* [`prototype/move_between_rooms_sdw.md`](prototype/move_between_rooms_sdw.md)
+* [`tests/game_test_plan.md`](tests/game_test_plan.md)
 
 ### Module Seven | Project Two
 
 Required graded work:
 
-- [`src/text_based_game.py`](src/text_based_game.py)
+* [`src/text_based_game.py`](src/text_based_game.py)
 
 Optional working notes:
 
-- [`src/text_based_game_sdw.md`](src/text_based_game_sdw.md)
-- [`tests/game_test_plan.md`](tests/game_test_plan.md)
+* [`src/text_based_game_sdw.md`](src/text_based_game_sdw.md)
+* [`tests/game_test_plan.md`](tests/game_test_plan.md)
 
 Leave the READMEs, SRS, SDD, reference images, CI files, tests, and repository configuration unchanged unless current course instructions tell you otherwise.
 
@@ -257,12 +257,12 @@ Open [`analysis/README.md`](analysis/README.md).
 
 Use the Project One Guidelines and Rubric, sample game resources, and the [Text-Based Game SRS](analysis/text_based_game_srs.md) to identify:
 
-- The game goal and losing condition
-- The minimum room and item requirements
-- The start-room and villain-room constraints
-- What makes the map winnable
-- The two command types: movement and getting an item
-- The inputs, outputs, decisions, and repetition needed by those processes
+* The game goal and losing condition
+* The minimum room and item requirements
+* The start-room and villain-room constraints
+* What makes the map winnable
+* The two command types: movement and getting an item
+* The inputs, outputs, decisions, and repetition needed by those processes
 
 ## 2. Design the Game
 
@@ -315,16 +315,16 @@ code .
 
 Review:
 
-- Your Project One [`design/move.pseudo`](design/move.pseudo)
-- Any Project One instructor feedback
-- The Module Six Milestone Guidelines and Rubric
-- The Milestone Simplified Text Game Flowchart and supporting resources in D2L
+* Your Project One [`design/move.pseudo`](design/move.pseudo)
+* Any Project One instructor feedback
+* The Module Six Milestone Guidelines and Rubric
+* The Milestone Simplified Text Game Flowchart and supporting resources in D2L
 
 ## 2. Construct the Simplified Movement Prototype
 
 Open [`prototype/README.md`](prototype/README.md) and complete:
 
-- [`prototype/move_between_rooms.py`](prototype/move_between_rooms.py)
+* [`prototype/move_between_rooms.py`](prototype/move_between_rooms.py)
 
 The milestone intentionally uses the **course-provided three-room dragon-game dictionary**. Do not replace it with your Project One world for this checkpoint.
 
@@ -375,7 +375,7 @@ Resolve design inconsistencies before creating the final room/item dictionary.
 
 Complete:
 
-- [`src/text_based_game.py`](src/text_based_game.py)
+* [`src/text_based_game.py`](src/text_based_game.py)
 
 The final source must use **your Project One rooms, items, villain, and map**. The milestone's three-room sample dictionary is not the final game data.
 
@@ -383,12 +383,12 @@ The final source must use **your Project One rooms, items, villain, and map**. T
 
 Use [`tests/README.md`](tests/README.md) to test at least:
 
-- Valid and invalid movement
-- Valid and invalid item commands
-- Inventory updates
-- A complete winning path
-- A complete losing path
-- Readability and removal of unfinished starter placeholders
+* Valid and invalid movement
+* Valid and invalid item commands
+* Inventory updates
+* A complete winning path
+* A complete losing path
+* Readability and removal of unfinished starter placeholders
 
 Use your map to plan deterministic playthroughs instead of relying on random exploration.
 
@@ -412,9 +412,9 @@ Submit `text_based_game.py` in D2L Brightspace according to the current Project 
 
 Each push to a personal repository runs the **IT 140 Checks** workflow. The student-facing **Project checkpoint check** understands the three-checkpoint sequence:
 
-- **Module 5:** After Project One graded work begins, all four Project One design files are expected to be completed.
-- **Module 6:** After the milestone source changes, Project One must remain complete and the milestone prototype must be completed.
-- **Module 7:** After the final source changes, Project One and the milestone must remain complete and the final Project Two source must be completed.
+* **Module 5:** After Project One graded work begins, all four Project One design files are expected to be completed.
+* **Module 6:** After the milestone source changes, Project One must remain complete and the milestone prototype must be completed.
+* **Module 7:** After the final source changes, Project One and the milestone must remain complete and the final Project Two source must be completed.
 
 A newly created personal repository should **not** fail merely because all graded files are still untouched starter files. Changes only to optional working notes also do not start a graded checkpoint.
 
@@ -453,10 +453,10 @@ If your personal repository exists on GitHub but the current device has no local
 
 Start with the [IT 140 Projects Wiki](https://github.com/GC-STEM/it140-projects/wiki) for supplemental explanations.
 
-- Use repository [Issues](https://github.com/GC-STEM/it140-projects/issues) for a reproducible technical problem with provided repository files, starter content, documentation, or automated checks.
-- Use repository [Discussions](https://github.com/GC-STEM/it140-projects/discussions) for repository-related questions that may help other students and do not request a completed graded solution.
-- For **Codio Virtual Desktop performance, access, or outage problems**, contact the **IT Service Desk** using the link on the main menu bar in D2L Brightspace.
-- For **course IDE setup or lifecycle-script problems**, see [Setup Problems and Support](https://github.com/GC-STEM/it140-m1-setup-tasks/wiki/Setup-Problems-and-Support).
-- Contact your instructor through D2L Brightspace for requirements, submissions, grading, feedback, deadlines, accommodations, or questions about your individual work.
+* Use repository [Issues](https://github.com/GC-STEM/it140-projects/issues) for a reproducible technical problem with provided repository files, starter content, documentation, or automated checks.
+* Use repository [Discussions](https://github.com/GC-STEM/it140-projects/discussions) for repository-related questions that may help other students and do not request a completed graded solution.
+* For **Codio Virtual Desktop performance, access, or outage problems**, contact the **IT Service Desk** using the link on the main menu bar in D2L Brightspace.
+* For **course IDE setup or lifecycle-script problems**, see [Setup Problems and Support](https://github.com/GC-STEM/it140-m1-setup-tasks/wiki/Setup-Problems-and-Support).
+* Contact your instructor through D2L Brightspace for requirements, submissions, grading, feedback, deadlines, accommodations, or questions about your individual work.
 
 Do **not** post completed graded solutions, credentials, access tokens, or private identifying information in public GitHub Issues or Discussions.

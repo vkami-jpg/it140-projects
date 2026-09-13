@@ -13,7 +13,7 @@ integrating the complete system in Module Seven.
 
 The graded milestone deliverable is:
 
-- [`move_between_rooms.py`](move_between_rooms.py)
+* [`move_between_rooms.py`](move_between_rooms.py)
 
 ## Prototype Scope: What Is and Is Not Included
 
@@ -108,14 +108,14 @@ Use the Module Six section of [`../tests/README.md`](../tests/README.md).
 
 At minimum, check:
 
-- [ ] A valid move from the Great Hall.
-- [ ] A valid move from the Bedroom.
-- [ ] An invalid direction.
-- [ ] An invalid command.
-- [ ] The `exit` command.
-- [ ] The loop ends at the required exit condition.
-- [ ] The program runs without syntax errors.
-- [ ] Names, comments, and whitespace are readable.
+* [ ] A valid move from the Great Hall.
+* [ ] A valid move from the Bedroom.
+* [ ] An invalid direction.
+* [ ] An invalid command.
+* [ ] The `exit` command.
+* [ ] The loop ends at the required exit condition.
+* [ ] The program runs without syntax errors.
+* [ ] Names, comments, and whitespace are readable.
 
 ## Milestone Submission Checkpoint
 
@@ -130,16 +130,16 @@ In Module Seven:
 
 **Reuse or adapt:**
 
-- Movement/dictionary techniques that worked
-- Loop and branching experience
-- Input-validation lessons
-- Debugging lessons and instructor feedback
+* Movement/dictionary techniques that worked
+* Loop and branching experience
+* Input-validation lessons
+* Debugging lessons and instructor feedback
 
 **Replace or expand:**
 
-- Replace the three-room sample data with your Project One world.
-- Add item and inventory behavior.
-- Add required functions and function calls.
-- Replace the milestone `exit` ending with the Project Two win/loss conditions.
+* Replace the three-room sample data with your Project One world.
+* Add item and inventory behavior.
+* Add required functions and function calls.
+* Replace the milestone `exit` ending with the Project Two win/loss conditions.
 
 Continue to the [Project Two Construct instructions](../src/README.md).

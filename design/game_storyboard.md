@@ -52,13 +52,13 @@ TODO: Identify and briefly describe the villain.
 
 Before submitting, compare this storyboard with `game_map.drawio`.
 
-- [ ] I included at least eight rooms.
-- [ ] I included at least six items for an eight-room design.
-- [ ] The start room has no item.
-- [ ] The villain room has no item.
-- [ ] Every room except the start room and villain room contains one item.
-- [ ] Room, item, and villain names match my map.
-- [ ] The map allows the player to collect all required items before the
+* [ ] I included at least eight rooms.
+* [ ] I included at least six items for an eight-room design.
+* [ ] The start room has no item.
+* [ ] The villain room has no item.
+* [ ] Every room except the start room and villain room contains one item.
+* [ ] Room, item, and villain names match my map.
+* [ ] The map allows the player to collect all required items before the
   villain is encountered.
 
 ## Project Two Handoff

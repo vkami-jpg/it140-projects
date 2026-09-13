@@ -13,7 +13,7 @@ program and verify that the required game paths behave correctly.
 
 The graded Project Two deliverable is:
 
-- [`text_based_game.py`](text_based_game.py)
+* [`text_based_game.py`](text_based_game.py)
 
 ## Inputs From Earlier Modules
 
@@ -59,10 +59,10 @@ Add the full-name comment required by the current Project Two directions.
 
 Project Two requires function(s) that organize required behavior, including:
 
-- Showing available commands
-- Showing current room
-- Showing inventory
-- Showing the item in the current room when applicable
+* Showing available commands
+* Showing current room
+* Showing inventory
+* Showing the item in the current room when applicable
 
 The starter separates instructions and status into two helper functions. You may
 organize the functions differently if your completed program still meets the
@@ -74,11 +74,11 @@ Use **your Project One map**.
 
 For every room, verify:
 
-- Valid neighboring directions
-- Destination room for each direction
-- Item for that room, when applicable
-- Start-room role
-- Villain-room role
+* Valid neighboring directions
+* Destination room for each direction
+* Item for that room, when applicable
+* Start-room role
+* Villain-room role
 
 Do not substitute the milestone's three-room dictionary for this step.
 
@@ -86,8 +86,8 @@ Do not substitute the milestone's three-room dictionary for this step.
 
 The gameplay needs at least:
 
-- Current room
-- Inventory
+* Current room
+* Inventory
 
 Choose values that match your Project One design.
 
@@ -107,9 +107,9 @@ the player sees commands and current status as required.
 
 The final game must distinguish and validate at least:
 
-- Movement commands
-- Get-item commands
-- Invalid commands
+* Movement commands
+* Get-item commands
+* Invalid commands
 
 Use your Project One pseudocode as the design reference for the detailed
 movement and item behaviors.
@@ -118,9 +118,9 @@ movement and item behaviors.
 
 The gameplay loop continues until:
 
-- The player **wins** by collecting all required items before encountering the
+* The player **wins** by collecting all required items before encountering the
   villain, or
-- The player **loses** by entering the villain room before collecting all
+* The player **loses** by entering the villain room before collecting all
   required items.
 
 Do not use the milestone's `exit` room as the final ending condition.
@@ -156,16 +156,16 @@ python3 src/text_based_game.py
 
 Before final testing:
 
-- [ ] Required function(s) are implemented and called.
-- [ ] The dictionary matches my Project One design.
-- [ ] Current room and inventory are tracked.
-- [ ] Movement commands work.
-- [ ] Get-item commands work.
-- [ ] Invalid input is handled.
-- [ ] A winning outcome is reachable.
-- [ ] A losing outcome is reachable.
-- [ ] Milestone-only sample data and ending assumptions are gone.
-- [ ] No unfinished `TODO:` or `pass` placeholders remain.
+* [ ] Required function(s) are implemented and called.
+* [ ] The dictionary matches my Project One design.
+* [ ] Current room and inventory are tracked.
+* [ ] Movement commands work.
+* [ ] Get-item commands work.
+* [ ] Invalid input is handled.
+* [ ] A winning outcome is reachable.
+* [ ] A losing outcome is reachable.
+* [ ] Milestone-only sample data and ending assumptions are gone.
+* [ ] No unfinished `TODO:` or `pass` placeholders remain.
 
 ## Next Step
 

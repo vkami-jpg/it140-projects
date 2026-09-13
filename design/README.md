@@ -34,8 +34,8 @@ completed game solution.
 The Project One directions ask you to create pseudocode based on provided
 flowcharts. This repository includes reference images for those processes:
 
-- [`move.drawio.png`](move.drawio.png) — move-between-rooms reference
-- [`get_item.drawio.png`](get_item.drawio.png) — get-item reference
+* [`move.drawio.png`](move.drawio.png) — move-between-rooms reference
+* [`get_item.drawio.png`](get_item.drawio.png) — get-item reference
 
 Use the flowcharts to understand required process structure. Do not copy a
 sample game world in place of your own theme, rooms, items, or villain.
@@ -46,11 +46,11 @@ Open [`game_storyboard.md`](game_storyboard.md).
 
 Describe:
 
-- Your theme
-- The basic storyline
-- At least eight rooms
-- At least six items for the minimum eight-room design
-- Your villain
+* Your theme
+* The basic storyline
+* At least eight rooms
+* At least six items for the minimum eight-room design
+* Your villain
 
 Use names you can keep consistent across the map and final game.
 
@@ -61,14 +61,14 @@ integration.
 
 The current Project One requirements include:
 
-- At least eight rooms
-- At least six items for the minimum eight-room design
-- No item in the start room
-- No item in the villain room
-- One item in every room except the start room and villain room
-- A layout that lets the player collect all required items before entering the
+* At least eight rooms
+* At least six items for the minimum eight-room design
+* No item in the start room
+* No item in the villain room
+* One item in every room except the start room and villain room
+* A layout that lets the player collect all required items before entering the
   villain room
-- Directional relationships that support north, south, east, and west movement
+* Directional relationships that support north, south, east, and west movement
 
 Before continuing, trace at least one complete **winning route** through your
 map. If the villain blocks access to a required item, revise the design.
@@ -79,12 +79,12 @@ Open [`move.pseudo`](move.pseudo) beside the provided movement flowchart.
 
 Your pseudocode needs to make clear:
 
-- What movement input is requested
-- How that input is validated for the current room
-- What happens after a valid direction
-- What happens after an invalid direction
-- What output is produced
-- How decision branching and repetition control the process
+* What movement input is requested
+* How that input is validated for the current room
+* What happens after a valid direction
+* What happens after an invalid direction
+* What output is produced
+* How decision branching and repetition control the process
 
 This pseudocode is later useful twice: first as conceptual support for the M6
 movement prototype, and then as part of the final M7 game design.
@@ -96,12 +96,12 @@ flowchart.
 
 Your pseudocode needs to make clear:
 
-- What item input is requested
-- How the request is validated for the current room
-- How a valid item is added to inventory
-- What happens after an invalid item request
-- What output is produced
-- How branching or repetition controls the process
+* What item input is requested
+* How the request is validated for the current room
+* How a valid item is added to inventory
+* What happens after an invalid item request
+* What output is produced
+* How branching or repetition controls the process
 
 The milestone does **not** implement this process. It carries forward directly
 to Project Two.
@@ -123,24 +123,24 @@ final Python game.
 
 Before submitting Project One:
 
-- [ ] Storyboard and map use the same room names.
-- [ ] Storyboard and map use the same item names.
-- [ ] The villain is placed consistently.
-- [ ] The start room and villain room contain no items.
-- [ ] The map is winnable.
-- [ ] Move pseudocode can work with the map's directional relationships.
-- [ ] Get-item pseudocode matches the required item/inventory behavior.
-- [ ] I can explain how these artifacts will become inputs to Project Two.
+* [ ] Storyboard and map use the same room names.
+* [ ] Storyboard and map use the same item names.
+* [ ] The villain is placed consistently.
+* [ ] The start room and villain room contain no items.
+* [ ] The map is winnable.
+* [ ] Move pseudocode can work with the map's directional relationships.
+* [ ] Get-item pseudocode matches the required item/inventory behavior.
+* [ ] I can explain how these artifacts will become inputs to Project Two.
 
 ## Project One Submission Checkpoint
 
 Submit these four files in D2L Brightspace according to the current What to
 Submit instructions:
 
-- `game_storyboard.md`
-- `game_map.drawio`
-- `move.pseudo`
-- `get_item.pseudo`
+* `game_storyboard.md`
+* `game_map.drawio`
+* `move.pseudo`
+* `get_item.pseudo`
 
 ## Next Step
 

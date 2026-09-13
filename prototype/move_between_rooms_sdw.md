@@ -1,9 +1,9 @@
 # Module Six Milestone Software Development Worksheet
 
 * **Course**: IT 140 - Introduction to Scripting
-- **Activity**: Module Six Milestone
-- **Program**: Simplified Movement Prototype
-- **Purpose**: Optional working notes for the M6 Construct + Test checkpoint
+* **Activity**: Module Six Milestone
+* **Program**: Simplified Movement Prototype
+* **Purpose**: Optional working notes for the M6 Construct + Test checkpoint
 
 > [!NOTE]
 > This worksheet is not a graded deliverable unless your instructor specifically
@@ -18,10 +18,10 @@ your Project One movement design into a small implementation plan.
 
 ### Where to Look
 
-- Module Six Milestone Guidelines and Rubric
-- Milestone Simplified Text Game Flowchart/supporting materials
-- `../design/move.pseudo`
-- `../analysis/text_based_game_srs.md`, Section 2
+* Module Six Milestone Guidelines and Rubric
+* Milestone Simplified Text Game Flowchart/supporting materials
+* `../design/move.pseudo`
+* `../analysis/text_based_game_srs.md`, Section 2
 
 ### Prompt
 
@@ -34,9 +34,9 @@ game.
 
 ### Reduced-Scope Checkpoint
 
-- [ ] I understand that the milestone uses the provided three-room dictionary.
-- [ ] I understand that the milestone includes movement and `exit`.
-- [ ] I understand that items, inventory, villain, and final win/loss behavior
+* [ ] I understand that the milestone uses the provided three-room dictionary.
+* [ ] I understand that the milestone includes movement and `exit`.
+* [ ] I understand that items, inventory, villain, and final win/loss behavior
   are deferred to Project Two.
 
 ## 2. Understand the Provided Dictionary
@@ -102,13 +102,13 @@ Complete the behavior table without writing the full Python solution here.
 
 ## 6. Incremental Construction Check
 
-- [ ] I can display the current room.
-- [ ] I can obtain one command.
-- [ ] I can recognize a valid movement command.
-- [ ] I can update the current room after a valid move.
-- [ ] I can recognize `exit`.
-- [ ] I can reject invalid input.
-- [ ] I can repeat until the exit condition is reached.
+* [ ] I can display the current room.
+* [ ] I can obtain one command.
+* [ ] I can recognize a valid movement command.
+* [ ] I can update the current room after a valid move.
+* [ ] I can recognize `exit`.
+* [ ] I can reject invalid input.
+* [ ] I can repeat until the exit condition is reached.
 
 ## 7. Test and Debug Notes
 

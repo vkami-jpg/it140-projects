@@ -20,18 +20,18 @@ Do not "correct" the filename unless this behavior is no longer desired.
 
 This repository uses `.github/` for GitHub-specific configuration:
 
-- `ISSUE_TEMPLATE/` — forms for reporting a repository problem or requesting
+* `ISSUE_TEMPLATE/` — forms for reporting a repository problem or requesting
   an improvement
-- `ci/README.md` — CI guidance for students, faculty, and maintainers
-- `ci/check_repository.py` — repository and progressive project-checkpoint
+* `ci/README.md` — CI guidance for students, faculty, and maintainers
+* `ci/check_repository.py` — repository and progressive project-checkpoint
   validation
-- `ci/check_starter.py` — validates the intentionally incomplete course starter
-- `ci/check_readme_commands.py` — validates cross-platform README command blocks
-- `workflows/tests.yml` — active **IT 140 Checks** workflow
-- `workflows/readme-commands.yml` — Linux, macOS, and Windows/Git Bash README
+* `ci/check_starter.py` — validates the intentionally incomplete course starter
+* `ci/check_readme_commands.py` — validates cross-platform README command blocks
+* `workflows/tests.yml` — active **IT 140 Checks** workflow
+* `workflows/readme-commands.yml` — Linux, macOS, and Windows/Git Bash README
   command checks for the public course repository
-- `workflows/external-links.yml` — external-link checks
-- `social-preview.png` — the repository social-preview image
+* `workflows/external-links.yml` — external-link checks
+* `social-preview.png` — the repository social-preview image
 
 The former `workflows/tests.yml.disabled` file is no longer part of the CI
 design and should be removed.

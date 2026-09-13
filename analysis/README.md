@@ -31,20 +31,20 @@ reduces the problem temporarily so you can practice construction and testing.
 
 Use:
 
-- Project One Guidelines and Rubric in D2L Brightspace
-- Sample Dragon Text Game supporting materials
-- [Text-Based Game SRS](text_based_game_srs.md), Section 1
+* Project One Guidelines and Rubric in D2L Brightspace
+* Sample Dragon Text Game supporting materials
+* [Text-Based Game SRS](text_based_game_srs.md), Section 1
 
 Identify the following before designing:
 
 ### Game Goal and World
 
-- What must the player collect to win?
-- What causes the player to lose?
-- What is the minimum number of rooms?
-- What is the minimum number of items?
-- Which rooms may not contain items?
-- What must be true about the map so the game can be won?
+* What must the player collect to win?
+* What causes the player to lose?
+* What is the minimum number of rooms?
+* What is the minimum number of items?
+* Which rooms may not contain items?
+* What must be true about the map so the game can be won?
 
 ### Commands and Program Behavior
 
@@ -55,11 +55,11 @@ The final game needs two command families:
 
 For each process, identify:
 
-- Input the player provides
-- Validation that must occur
-- Decisions the program must make
-- Output the player receives
-- What behavior repeats
+* Input the player provides
+* Validation that must occur
+* Decisions the program must make
+* Output the player receives
+* What behavior repeats
 
 Do not begin with Python syntax. Project One grades the **design**.
 
@@ -70,21 +70,21 @@ the scope.
 
 The milestone includes:
 
-- The provided three-room dragon dictionary
-- Current-room output
-- Movement commands
-- `exit`
-- A gameplay loop
-- Decision branching
-- Input validation
-- Debugging and readable code
+* The provided three-room dragon dictionary
+* Current-room output
+* Movement commands
+* `exit`
+* A gameplay loop
+* Decision branching
+* Input validation
+* Debugging and readable code
 
 The milestone intentionally excludes:
 
-- Your Project One room map
-- Items and inventory
-- A villain
-- Final win/loss logic
+* Your Project One room map
+* Items and inventory
+* A villain
+* Final win/loss logic
 
 This reduced scope is a development strategy, not a change to your final game
 design.
@@ -93,18 +93,18 @@ design.
 
 Before Project Two, review:
 
-- Project One design files and instructor feedback
-- Module Six code and instructor feedback
-- Project Two Guidelines and Rubric
-- Project Two supporting flowchart/output materials
-- [Text-Based Game SRS](text_based_game_srs.md), Section 3
+* Project One design files and instructor feedback
+* Module Six code and instructor feedback
+* Project Two Guidelines and Rubric
+* Project Two supporting flowchart/output materials
+* [Text-Based Game SRS](text_based_game_srs.md), Section 3
 
 Ask:
 
-- Which Project One design decisions become data in the final dictionary?
-- Which movement ideas from the milestone can be reused or adapted?
-- Which milestone-only behaviors must be removed or replaced?
-- What additional behavior is required for items, inventory, functions,
+* Which Project One design decisions become data in the final dictionary?
+* Which movement ideas from the milestone can be reused or adapted?
+* Which milestone-only behaviors must be removed or replaced?
+* What additional behavior is required for items, inventory, functions,
   winning, and losing?
 
 ## Analyze Checkpoint

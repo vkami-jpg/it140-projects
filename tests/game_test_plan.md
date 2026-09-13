@@ -1,7 +1,7 @@
 # Text-Based Game Test Plan
 
-- **Purpose**: Optional test notes for the M6 prototype and M7 final game
-- **Submission status**: Not graded unless your instructor specifically asks
+* **Purpose**: Optional test notes for the M6 prototype and M7 final game
+* **Submission status**: Not graded unless your instructor specifically asks
 
 # Module Six | Prototype Tests
 
