@@ -5,15 +5,12 @@
 ---
 
 > [!IMPORTANT]
-> **GitHub repository options**
 >
-> **Do not select Fork or Use this template.** These options will interfere with the repository setup commands later in this README.
->
-> * 🚫 **Fork — Do not use**
-> * 🚫 **Use this template — Do not use**
-> * ⭐ **Star** — The setup commands later in this README will bookmark this repository for you.
-> * 👁️ **Watch**
->   * **Students:** Not recommended. Watching is not needed and may generate unnecessary notifications.
+> * 🚫 **Fork** — Do NOT fork this repo!!! Instead, follow the instructions below.
+> * 🚫 **Use this template** — Do NOT click the green *Use the template* button!!! Instead, follow the instructions below.
+> * ⭐ **Star** — Click to bookmark this repo, if desired.
+> * 👁️ **Watch** — Click to receive notices of repo changes, if desired.
+>   * **Students:** Not recommended. Watching generates unnecessary notifications.
 >   * **Faculty:** Consider selecting **Watch → Custom → Releases + Issues** to receive major repository updates and follow reported issues.
 
 ---
