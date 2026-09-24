@@ -7,25 +7,25 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+TODO:This is a superhero-themed text adventure called HQ Heist. The player is a rookie hero who arrives at team headquarters to find it's been infiltrated
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+TODO: A rogue villain known as "The Saboteur" has broken in and scattered the team's essential gear throughout the building. The player must explore the headquarters, room by room, collecting all six pieces of equipment before encountering the Saboteur. If the player finds all the items first, they're ready to confront the villain and win. If they stumble into the Saboteur's hideout before gathering everything, they're caught unprepared and lose
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. TODO: Entrance Hall  
+2. TODO: Training Room
+3. TODO: Armory
+4. TODO: Lab
+5. TODO: Control Room
+6. TODO: Vehicle Bay
+7. TODO: Rooftop
+8. TODO: Vault
+9. TODO: Villain's Hideout
 
 Add more rooms if your design needs them.
 
@@ -34,12 +34,12 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. TODO: Power Gauntlet
+2. TODO: Energy Shield
+3. TODO: Grappling Hook
+4. TODO: Stealth Suit 
+5. TODO: Communicator
+6. TODO: Powwer Core
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
