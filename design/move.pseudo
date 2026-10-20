@@ -1,25 +1,75 @@
 # Project One Move-Between-Rooms Pseudocode
-#
-# Graded checkpoint: Module Five Project One
-# Later use: conceptual support for M6; movement design for M7
-#
-# Review the course-provided movement flowchart before completing this file.
-# Write pseudocode, not Python code. Use clear indentation and course-appropriate
-# keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
-# TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+# TODO 1: Information the movement process needs
 
-# TODO 2: Prompt for and receive the player's movement command.
+SET rooms to a dictionary of every room and its exits:
+    Lobby: North = Forensics Lab, West = Security Office, East = Break Room, South = Evidence Locker
+    Forensics Lab: North = Server Room, West = Records Room, East = Supply Closet, South = Lobby
+    Security Office: East = Lobby
+    Break Room: West = Lobby
+    Evidence Locker: North = Lobby
+    Records Room: East = Forensics Lab
+    Supply Closet: West = Forensics Lab
+    Server Room: South = Forensics Lab
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
+SET current_room to "Lobby"
+SET inventory to an empty list
+SET valid_directions to North, South, East, West
+SET game_over to False
 
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+# TODO 6: Repeated gameplay loop
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
+OUTPUT game title and instructions: "Move with 'go North', 'go South', 'go East', 'go West'. Get items with 'get [item name]'."
 
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+WHILE game_over is False
+
+    OUTPUT current_room and the items in the player's inventory
+
+    # TODO 2: Prompt for and receive the movement command
+
+    OUTPUT "Enter your move:"
+    INPUT command from player
+    SET command to the trimmed command text
+
+    # Decide which type of command was entered
+
+    IF command starts with "go "
+
+        SET direction to the text after "go ", with the first letter capitalized
+
+        # TODO 3: Validate the movement
+
+        IF direction is not in valid_directions
+            # TODO 5: Invalid movement (not a direction)
+            OUTPUT "Invalid direction. Use North, South, East, or West."
+
+        ELSE IF direction is a key in rooms[current_room]
+
+            # TODO 4: Valid movement
+            SET current_room to rooms[current_room][direction]
+            OUTPUT "You move " + direction + " to the " + current_room + "."
+
+            # Check for the ending after each move
+            IF current_room is "Server Room"
+                IF inventory contains all 6 items
+                    OUTPUT "You have all the evidence. The Phantom is exposed. You win!"
+                ELSE
+                    OUTPUT "The Phantom locks you out and wipes the evidence. You lose."
+                SET game_over to True
+
+        ELSE
+            # TODO 5: Invalid movement (no exit that way)
+            OUTPUT "You can't go that way from the " + current_room + "."
+
+    ELSE IF command starts with "get "
+        CALL the get item process (see get_item.pseudo)
+
+    ELSE
+        # TODO 5: Unrecognized command
+        OUTPUT "Invalid command. Use 'go [direction]' or 'get [item]'."
+
+    END IF
+
+END WHILE
+
+OUTPUT "Thanks for playing."
