@@ -1,64 +1,50 @@
 # Project One Storyboard | Text-Based Adventure Game
 
-> Complete the `TODO:` prompts using your own game idea. This file is a graded
-> Project One deliverable and later becomes a reference for Project Two.
-
 ## Theme and Storyline
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Breach at the Lab. A cybersecurity and digital forensics mystery set inside a research building after hours.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+A hacker known as the Phantom has broken into the Halvorsen Digital Forensics Lab and is wiping evidence from a major data breach case. You play an investigator who arrives at the Lobby. To stop the wipe and expose the Phantom, you must collect six pieces of evidence: the Access Badge, Network Log, Fingerprint Kit, Encrypted Laptop, Flash Drive, and Decryption Key. The Phantom is hiding in the Server Room. If you enter it before you hold all six items, the Phantom locks you out and the case is lost.
 
 ## Rooms
 
-Project One requires a minimum of eight rooms.
-
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
-
-Add more rooms if your design needs them.
+1. Lobby (start room, no item)
+2. Security Office
+3. Records Room
+4. Break Room
+5. Forensics Lab
+6. Evidence Locker
+7. Supply Closet
+8. Server Room (villain room, no item)
 
 ## Items
 
-With the minimum eight-room design, Project One requires at least six items.
-Every room except the start room and villain room must contain one item.
-
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
-
-If you add rooms beyond the minimum, add an item for every additional room
-except the start room and villain room.
+1. Access Badge (Security Office)
+2. Network Log (Records Room)
+3. Fingerprint Kit (Break Room)
+4. Encrypted Laptop (Forensics Lab)
+5. Flash Drive (Evidence Locker)
+6. Decryption Key (Supply Closet)
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+The Phantom, an anonymous hacker who is erasing the evidence. The Phantom waits in the Server Room, a dead end that can only be reached through the Forensics Lab, so the player can collect every item without ever passing through it.
 
 ## Storyboard and Map Check
 
 Before submitting, compare this storyboard with `game_map.drawio`.
 
-* [ ] I included eight (8) rooms.
-* [ ] I included six (6) collectable items.
-* [ ] The start room has no item.
-* [ ] The villain room has no item.
-* [ ] Every room except the start room and villain room contains one item.
-* [ ] Room, item, and villain names match my map.
-* [ ] The map allows the player to collect all required items before the
+* [x] I included eight (8) rooms.
+* [x] I included six (6) collectable items.
+* [x] The start room has no item.
+* [x] The villain room has no item.
+* [x] Every room except the start room and villain room contains one item.
+* [x] Room, item, and villain names match my map.
+* [x] The map allows the player to collect all required items before the
   villain is encountered.
 
 ## Project Two Handoff
