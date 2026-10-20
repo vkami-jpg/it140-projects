@@ -15,7 +15,7 @@ TODO: In one short paragraph, explain the setting, the player's goal, the items
 the player must gather, and the threat created by the villain.
 
 ## Rooms
-
+SIX SEVENNN
 Project One requires a minimum of eight rooms.
 
 1. TODO: Start room
